@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+div,body,header,nav,ul,li,a,main,figure,fagcaption,h1,h2,h3,p,footer,artice,img,span,section,content{
+	margin:0;
+	padding:0;
+}
+body{
+	-webkit-touch-callout:onone; 
+	-webkit-text-size-adjust:none;
+}
+body>*{
+        height: auto;
+        margin-left: auto;/*居中*/
+        margin-right: auto;
+}
+	
+img{
+	vertical-align:bottom;
+}
+a{
+	text-decoration:none;/*去除超链接的下划线*/
+}
+li{
+	list-style:none;
+}
+html{
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+h2{
+	font-size:16px;
+	color:#00C;
+}
+.clearboth:after{
+		content:"";
+		clear:both;
+		display:block;
+	}
